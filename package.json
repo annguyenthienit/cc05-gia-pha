@@ -1,0 +1,16 @@
+{
+  "name": "gia-pha",
+  "version": "1.0.0",
+  "description": "Dự án mẫu khóa CC05 — gia phả dòng họ chạy dòng lệnh",
+  "type": "commonjs",
+  "main": "cli.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "node cli.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "private": true,
+  "license": "MIT"
+}

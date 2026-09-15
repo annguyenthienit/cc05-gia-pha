@@ -1,0 +1,582 @@
+[
+  {
+    "id": "P01",
+    "hoTen": "Nguyễn Văn Kính",
+    "gioiTinh": "nam",
+    "namSinh": 1868,
+    "namMat": 1932,
+    "cha": null,
+    "me": null,
+    "gocHo": true,
+    "conNuoi": false,
+    "voChong": [
+      "P02"
+    ],
+    "ngayMatAm": "12/02"
+  },
+  {
+    "id": "P02",
+    "hoTen": "Trần Thị Lụa",
+    "gioiTinh": "nu",
+    "namSinh": 1872,
+    "namMat": 1940,
+    "cha": null,
+    "me": null,
+    "gocHo": false,
+    "conNuoi": false,
+    "voChong": [
+      "P01"
+    ],
+    "ngayMatAm": "03/08"
+  },
+  {
+    "id": "P03",
+    "hoTen": "Nguyễn Văn Đức",
+    "gioiTinh": "nam",
+    "namSinh": 1895,
+    "namMat": 1965,
+    "cha": "P01",
+    "me": "P02",
+    "gocHo": true,
+    "conNuoi": false,
+    "voChong": [
+      "P07"
+    ],
+    "ngayMatAm": "20/10"
+  },
+  {
+    "id": "P04",
+    "hoTen": "Nguyễn Thị Hòa",
+    "gioiTinh": "nu",
+    "namSinh": 1898,
+    "namMat": 1970,
+    "cha": "P01",
+    "me": "P02",
+    "gocHo": true,
+    "conNuoi": false,
+    "voChong": [
+      "P05"
+    ],
+    "ngayMatAm": "15/04"
+  },
+  {
+    "id": "P05",
+    "hoTen": "Lê Văn Bình",
+    "gioiTinh": "nam",
+    "namSinh": 1894,
+    "namMat": 1962,
+    "cha": null,
+    "me": null,
+    "gocHo": false,
+    "conNuoi": false,
+    "voChong": [
+      "P04"
+    ],
+    "ngayMatAm": "27/06"
+  },
+  {
+    "id": "P06",
+    "hoTen": "Nguyễn Văn Tài",
+    "gioiTinh": "nam",
+    "namSinh": 1902,
+    "namMat": 1975,
+    "cha": "P01",
+    "me": "P02",
+    "gocHo": true,
+    "conNuoi": false,
+    "voChong": [
+      "P08"
+    ],
+    "ngayMatAm": "08/11"
+  },
+  {
+    "id": "P07",
+    "hoTen": "Phạm Thị Nhàn",
+    "gioiTinh": "nu",
+    "namSinh": 1899,
+    "namMat": 1980,
+    "cha": null,
+    "me": null,
+    "gocHo": false,
+    "conNuoi": false,
+    "voChong": [
+      "P03"
+    ],
+    "ngayMatAm": "19/03"
+  },
+  {
+    "id": "P08",
+    "hoTen": "Hoàng Thị Mai",
+    "gioiTinh": "nu",
+    "namSinh": 1905,
+    "namMat": 1988,
+    "cha": null,
+    "me": null,
+    "gocHo": false,
+    "conNuoi": false,
+    "voChong": [
+      "P06"
+    ],
+    "ngayMatAm": "02/09"
+  },
+  {
+    "id": "P09",
+    "hoTen": "Nguyễn Văn Thành",
+    "gioiTinh": "nam",
+    "namSinh": 1922,
+    "namMat": 1990,
+    "cha": "P03",
+    "me": "P07",
+    "gocHo": true,
+    "conNuoi": false,
+    "voChong": [
+      "P15"
+    ],
+    "ngayMatAm": "11/01"
+  },
+  {
+    "id": "P10",
+    "hoTen": "Nguyễn Văn Lộc",
+    "gioiTinh": "nam",
+    "namSinh": 1925,
+    "namMat": 2001,
+    "cha": "P03",
+    "me": "P07",
+    "gocHo": true,
+    "conNuoi": false,
+    "voChong": [
+      "P16"
+    ],
+    "ngayMatAm": "24/07"
+  },
+  {
+    "id": "P11",
+    "hoTen": "Nguyễn Thị Hạnh",
+    "gioiTinh": "nu",
+    "namSinh": 1929,
+    "namMat": 2010,
+    "cha": "P03",
+    "me": "P07",
+    "gocHo": true,
+    "conNuoi": false,
+    "voChong": [
+      "P17"
+    ],
+    "ngayMatAm": "06/12"
+  },
+  {
+    "id": "P13",
+    "hoTen": "Nguyễn Văn Phúc",
+    "gioiTinh": "nam",
+    "namSinh": 1930,
+    "namMat": 2005,
+    "cha": "P06",
+    "me": "P08",
+    "gocHo": true,
+    "conNuoi": false,
+    "voChong": [
+      "P18"
+    ],
+    "ngayMatAm": "30/05"
+  },
+  {
+    "id": "P14",
+    "hoTen": "Nguyễn Văn Nam",
+    "gioiTinh": "nam",
+    "namSinh": 1934,
+    "namMat": 2012,
+    "cha": "P06",
+    "me": "P08",
+    "gocHo": true,
+    "conNuoi": true,
+    "voChong": [
+      "P19"
+    ],
+    "ngayMatAm": "16/09"
+  },
+  {
+    "id": "P15",
+    "hoTen": "Đỗ Thị Lan",
+    "gioiTinh": "nu",
+    "namSinh": 1926,
+    "namMat": 2008,
+    "cha": null,
+    "me": null,
+    "gocHo": false,
+    "conNuoi": false,
+    "voChong": [
+      "P09"
+    ],
+    "ngayMatAm": "22/02"
+  },
+  {
+    "id": "P16",
+    "hoTen": "Vũ Thị Thu",
+    "gioiTinh": "nu",
+    "namSinh": 1924,
+    "namMat": null,
+    "cha": null,
+    "me": null,
+    "gocHo": false,
+    "conNuoi": false,
+    "voChong": [
+      "P10"
+    ],
+    "ngayMatAm": null
+  },
+  {
+    "id": "P17",
+    "hoTen": "Bùi Văn Sơn",
+    "gioiTinh": "nam",
+    "namSinh": 1927,
+    "namMat": 2000,
+    "cha": null,
+    "me": null,
+    "gocHo": false,
+    "conNuoi": false,
+    "voChong": [
+      "P11"
+    ],
+    "ngayMatAm": "09/10"
+  },
+  {
+    "id": "P18",
+    "hoTen": "Ngô Thị Hương",
+    "gioiTinh": "nu",
+    "namSinh": 1933,
+    "namMat": 2015,
+    "cha": null,
+    "me": null,
+    "gocHo": false,
+    "conNuoi": false,
+    "voChong": [
+      "P13"
+    ],
+    "ngayMatAm": "14/03"
+  },
+  {
+    "id": "P19",
+    "hoTen": "Đinh Thị Xuân",
+    "gioiTinh": "nu",
+    "namSinh": 1938,
+    "namMat": null,
+    "cha": null,
+    "me": null,
+    "gocHo": false,
+    "conNuoi": false,
+    "voChong": [
+      "P14"
+    ],
+    "ngayMatAm": null
+  },
+  {
+    "id": "P20",
+    "hoTen": "Nguyễn Văn Hùng",
+    "gioiTinh": "nam",
+    "namSinh": 1950,
+    "namMat": null,
+    "cha": "P09",
+    "me": "P15",
+    "gocHo": true,
+    "conNuoi": false,
+    "voChong": [
+      "P28"
+    ],
+    "ngayMatAm": null
+  },
+  {
+    "id": "P21",
+    "hoTen": "Nguyễn Thị Liên",
+    "gioiTinh": "nu",
+    "namSinh": 1953,
+    "namMat": null,
+    "cha": "P09",
+    "me": "P15",
+    "gocHo": true,
+    "conNuoi": false,
+    "voChong": [
+      "P29"
+    ],
+    "ngayMatAm": null
+  },
+  {
+    "id": "P22",
+    "hoTen": "Nguyễn Văn Dũng",
+    "gioiTinh": "nam",
+    "namSinh": 1957,
+    "namMat": 2020,
+    "cha": "P09",
+    "me": "P15",
+    "gocHo": true,
+    "conNuoi": false,
+    "voChong": [],
+    "ngayMatAm": "05/06"
+  },
+  {
+    "id": "P23",
+    "hoTen": "Nguyễn Văn Minh",
+    "gioiTinh": "nam",
+    "namSinh": 1955,
+    "namMat": null,
+    "cha": "P10",
+    "me": "P16",
+    "gocHo": true,
+    "conNuoi": false,
+    "voChong": [
+      "P30"
+    ],
+    "ngayMatAm": null
+  },
+  {
+    "id": "P24",
+    "hoTen": "Nguyễn Văn Quang",
+    "gioiTinh": "nam",
+    "namSinh": 1960,
+    "namMat": null,
+    "cha": "P10",
+    "me": "P16",
+    "gocHo": true,
+    "conNuoi": false,
+    "voChong": [],
+    "ngayMatAm": null
+  },
+  {
+    "id": "P25",
+    "hoTen": "Nguyễn Thị Ngọc",
+    "gioiTinh": "nu",
+    "namSinh": 1958,
+    "namMat": null,
+    "cha": "P13",
+    "me": "P18",
+    "gocHo": true,
+    "conNuoi": false,
+    "voChong": [],
+    "ngayMatAm": null
+  },
+  {
+    "id": "P26",
+    "hoTen": "Nguyễn Văn Long",
+    "gioiTinh": "nam",
+    "namSinh": 1962,
+    "namMat": null,
+    "cha": "P13",
+    "me": "P18",
+    "gocHo": true,
+    "conNuoi": false,
+    "voChong": [
+      "P31"
+    ],
+    "ngayMatAm": null
+  },
+  {
+    "id": "P27",
+    "hoTen": "Nguyễn Văn Tuấn",
+    "gioiTinh": "nam",
+    "namSinh": 1965,
+    "namMat": null,
+    "cha": "P14",
+    "me": "P19",
+    "gocHo": true,
+    "conNuoi": false,
+    "voChong": [
+      "P32"
+    ],
+    "ngayMatAm": null
+  },
+  {
+    "id": "P28",
+    "hoTen": "Lê Thị Bích",
+    "gioiTinh": "nu",
+    "namSinh": 1952,
+    "namMat": null,
+    "cha": null,
+    "me": null,
+    "gocHo": false,
+    "conNuoi": false,
+    "voChong": [
+      "P20"
+    ],
+    "ngayMatAm": null
+  },
+  {
+    "id": "P29",
+    "hoTen": "Trần Văn Khoa",
+    "gioiTinh": "nam",
+    "namSinh": 1950,
+    "namMat": null,
+    "cha": null,
+    "me": null,
+    "gocHo": false,
+    "conNuoi": false,
+    "voChong": [
+      "P21"
+    ],
+    "ngayMatAm": null
+  },
+  {
+    "id": "P30",
+    "hoTen": "Phan Thị Yến",
+    "gioiTinh": "nu",
+    "namSinh": 1958,
+    "namMat": null,
+    "cha": null,
+    "me": null,
+    "gocHo": false,
+    "conNuoi": false,
+    "voChong": [
+      "P23"
+    ],
+    "ngayMatAm": null
+  },
+  {
+    "id": "P31",
+    "hoTen": "Mai Thị Hồng",
+    "gioiTinh": "nu",
+    "namSinh": 1965,
+    "namMat": null,
+    "cha": null,
+    "me": null,
+    "gocHo": false,
+    "conNuoi": false,
+    "voChong": [
+      "P26"
+    ],
+    "ngayMatAm": null
+  },
+  {
+    "id": "P32",
+    "hoTen": "Cao Thị Thảo",
+    "gioiTinh": "nu",
+    "namSinh": 1968,
+    "namMat": null,
+    "cha": null,
+    "me": null,
+    "gocHo": false,
+    "conNuoi": false,
+    "voChong": [
+      "P27"
+    ],
+    "ngayMatAm": null
+  },
+  {
+    "id": "P33",
+    "hoTen": "Nguyễn Văn An",
+    "gioiTinh": "nam",
+    "namSinh": 1978,
+    "namMat": null,
+    "cha": "P20",
+    "me": "P28",
+    "gocHo": true,
+    "conNuoi": false,
+    "voChong": [
+      "P39"
+    ],
+    "ngayMatAm": null
+  },
+  {
+    "id": "P34",
+    "hoTen": "Nguyễn Thị Thu Hà",
+    "gioiTinh": "nu",
+    "namSinh": 1982,
+    "namMat": null,
+    "cha": "P20",
+    "me": "P28",
+    "gocHo": true,
+    "conNuoi": false,
+    "voChong": [],
+    "ngayMatAm": null
+  },
+  {
+    "id": "P35",
+    "hoTen": "Nguyễn Văn Bảo",
+    "gioiTinh": "nam",
+    "namSinh": 1985,
+    "namMat": null,
+    "cha": "P23",
+    "me": "P30",
+    "gocHo": true,
+    "conNuoi": false,
+    "voChong": [],
+    "ngayMatAm": null
+  },
+  {
+    "id": "P36",
+    "hoTen": "Nguyễn Văn Khang",
+    "gioiTinh": "nam",
+    "namSinh": 1988,
+    "namMat": null,
+    "cha": "P23",
+    "me": "P30",
+    "gocHo": true,
+    "conNuoi": true,
+    "voChong": [],
+    "ngayMatAm": null
+  },
+  {
+    "id": "P37",
+    "hoTen": "Nguyễn Thị Linh",
+    "gioiTinh": "nu",
+    "namSinh": 1990,
+    "namMat": null,
+    "cha": "P26",
+    "me": "P31",
+    "gocHo": true,
+    "conNuoi": false,
+    "voChong": [],
+    "ngayMatAm": null
+  },
+  {
+    "id": "P38",
+    "hoTen": "Nguyễn Văn Đạt",
+    "gioiTinh": "nam",
+    "namSinh": 1995,
+    "namMat": null,
+    "cha": "P27",
+    "me": "P32",
+    "gocHo": true,
+    "conNuoi": false,
+    "voChong": [],
+    "ngayMatAm": null
+  },
+  {
+    "id": "P39",
+    "hoTen": "Trần Thị Quyên",
+    "gioiTinh": "nu",
+    "namSinh": 1980,
+    "namMat": null,
+    "cha": null,
+    "me": null,
+    "gocHo": false,
+    "conNuoi": false,
+    "voChong": [
+      "P33"
+    ],
+    "ngayMatAm": null
+  },
+  {
+    "id": "P40",
+    "hoTen": "Nguyễn Gia Huy",
+    "gioiTinh": "nam",
+    "namSinh": 2010,
+    "namMat": null,
+    "cha": "P33",
+    "me": "P39",
+    "gocHo": true,
+    "conNuoi": false,
+    "voChong": [],
+    "ngayMatAm": null
+  },
+  {
+    "id": "P41",
+    "hoTen": "Nguyễn Thị Tường Vy",
+    "gioiTinh": "nu",
+    "namSinh": 2014,
+    "namMat": null,
+    "cha": "P33",
+    "me": "P39",
+    "gocHo": true,
+    "conNuoi": false,
+    "voChong": [],
+    "ngayMatAm": null
+  }
+]
