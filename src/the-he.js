@@ -27,9 +27,8 @@ function tinhDoi(id, dongHo) {
     if (p.voChong.length === 0) throw new Error(`${id} không gốc họ mà cũng không có vợ/chồng`);
     return tinhDoi(p.voChong[0], dongHo);
   }
-  if (laThuyTo(p)) return 0;
-  // con nuôi: tạm để cùng đời với cha nuôi, chờ hỏi lại tộc trưởng
-  if (p.conNuoi) return tinhDoi(p.cha, dongHo);
+  if (laThuyTo(p)) return 1;
+  // con nuôi tính như con ruột, theo cha mẹ nuôi (quy ước 2.2.2)
   return tinhDoi(p.cha, dongHo) + 1;
 }
 
@@ -41,6 +40,7 @@ function tinhDoi(id, dongHo) {
 function demTheoDoi(dongHo) {
   const ket = {};
   for (const p of dongHo) {
+    if (!p.gocHo) continue; // dâu rể không đếm vào số người mỗi đời (quy ước 2.2.3)
     const doi = tinhDoi(p.id, dongHo);
     ket[doi] = (ket[doi] || 0) + 1;
   }
