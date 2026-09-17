@@ -1,3 +1,5 @@
 node_modules/
 .claude/
 CLAUDE.md
+mcp/redmine/node_modules/
+.env

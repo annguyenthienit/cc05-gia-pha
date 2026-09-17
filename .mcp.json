@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "redmine-skg": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["mcp/redmine/start.mjs"]
+    }
+  }
+}

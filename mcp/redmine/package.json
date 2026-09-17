@@ -1,0 +1,17 @@
+{
+  "name": "gia-pha-redmine-mcp",
+  "version": "1.0.0",
+  "description": "MCP server demo cho khóa CC05: kết nối Redmine SKG (red.smartitsoft.com)",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "redmine-mcp-skg": "./start.mjs"
+  },
+  "scripts": {
+    "start": "node start.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.15.0",
+    "zod": "^3.25.75"
+  }
+}
