@@ -41,6 +41,7 @@ function tinhDoi(id, dongHo) {
 function demTheoDoi(dongHo) {
   const ket = {};
   for (const p of dongHo) {
+    if (!p.gocHo) continue; // dâu rể không đếm vào số người mỗi đời (quy ước 2.2.3)
     const doi = tinhDoi(p.id, dongHo);
     ket[doi] = (ket[doi] || 0) + 1;
   }
