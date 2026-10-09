@@ -1,0 +1,45 @@
+name: Claude Code Review
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+    branches: [main]
+
+concurrency:
+  group: claude-review-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: read
+      id-token: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Claude review
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            REPO: ${{ github.repository }}
+            PR NUMBER: ${{ github.event.pull_request.number }}
+
+            Review PR này. Đọc CLAUDE.md và docs/quy-uoc-gia-pha.md trước để nắm quy ước và nghiệp vụ.
+
+            Tập trung vào:
+            - Lỗi logic nghiệp vụ: thuỷ tổ là đời 1, con nuôi, dâu rể không đếm vào số người mỗi đời, mất khi sinh cách >= 100 năm, giỗ âm lịch.
+            - Vi phạm quy ước: tên tiếng Việt không dấu camelCase, JSDoc cho hàm public, CommonJS, không thêm dependency, đổi lịch chỉ trong src/am-lich.js.
+            - Sửa test để test xanh thay vì sửa code.
+            - Thiếu test cho logic mới.
+
+            Lấy diff bằng `gh pr diff`. Mỗi vấn đề cụ thể ghi bằng comment inline (mcp__github_inline_comment__create_inline_comment) đúng dòng.
+            Cuối cùng dùng `gh pr comment` để đăng một comment tổng kết ngắn. Viết bằng tiếng Việt. Không khen chung chung.
+          claude_args: |
+            --allowedTools "mcp__github_inline_comment__create_inline_comment,Bash(gh pr comment:*),Bash(gh pr diff:*),Bash(gh pr view:*)"
